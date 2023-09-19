@@ -4,9 +4,7 @@ class BitCell{
     private:
         int _value;
     public:
-        BitCell(int value);
-        int getValue();
-        void setValue(int value);
-        void flip();
-        void print();
+        BitCell(int value = 0);
+        int compare(int key, int mask);
+        int write(int key, int mask);
 };
