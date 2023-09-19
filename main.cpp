@@ -6,7 +6,7 @@
 #include "header.hpp"
 
 int main(){
-    BitCell cell(0);
+    BitCell cell(1);
     cout << cell.compare(0, 1) << endl;
     return 0;
 }
