@@ -1,3 +1,5 @@
+#define APU_SIZE 4
+
 #pragma once
 #include <iostream>
 #include <vector>
@@ -7,5 +9,3 @@
 
 
 using namespace std;
-
-#define APU_SIZE 4

@@ -1,5 +1,11 @@
 #include "header.hpp"
-#define APU_SIZE 4
+
+/**
+ * @brief Definition of the BitCell class.
+ *
+ * The BitCell class represents a single bit cell that can store a bit value.
+ * It provides functions for comparison and conditional writing of values.
+ */
 class BitCell{
     private:
         int _value;
@@ -11,6 +17,13 @@ class BitCell{
         void changeValue(int value){this->_value = value;}
 };
 
+
+/**
+ * @brief Definition of the APU class.
+ *
+ * The APU (Associative Processing Unit) class represents a matrix of BitCells
+ * and provides functions for writing, comparing, and printing the matrix.
+ */
 class APU{
     private:
         BitCell _cellMatrix[APU_SIZE][APU_SIZE];
