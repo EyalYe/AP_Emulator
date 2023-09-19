@@ -1,7 +1,5 @@
 /******
-    Created by Eyal Yemini and Harel Markel
-
-
+    Created by Eyal Yemini and Harel Markel.
 *****/
 
 
