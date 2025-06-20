@@ -1,4 +1,4 @@
-#include "header.hpp"
+#pragma once
 
 /**
  * @brief Definition of the BitCell class.
